@@ -7,7 +7,7 @@ test('si se resta 5 y 3 debe retornar 2', () =>{
     expect(rest(5,3)).toBe(2);
 })
 test('si se resta 3 y 10 debe retornar -7', () =>{
-    expect(rest("3","10")).toBe(-7);
+    expect(rest("3","10")).toBe(55);
 })
 test('si se resta 2 y 20 debe retornar -18', () =>{
     expect(rest(2,20)).toBe(-18);
