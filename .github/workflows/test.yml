@@ -22,4 +22,5 @@ jobs:
         run: npm install # O yarn install si usas yarn
 
       - name: Run tests
+        set -e
         run: npm test || exit 1
