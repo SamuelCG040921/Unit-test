@@ -22,4 +22,4 @@ jobs:
         run: npm install # O yarn install si usas yarn
 
       - name: Run tests
-        run: npm test # O yarn test si usas yarn
+        run: npm test || exit 1
