@@ -1,7 +1,7 @@
 const sum = require('./suma');
 
 test('si se suma 5 y 5 debe retornar 10', () =>{
-    expect(sum(5,5)).toBe(10);
+    expect(sum(5,5)).toBe(90);
 })
 test('si se suma 20 y 21 debe retornar 41', () =>{
     expect(sum(20,21)).toBe(41);

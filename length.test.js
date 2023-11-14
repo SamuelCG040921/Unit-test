@@ -2,7 +2,7 @@ const length = require('./length.js');
 
 
 test('si se le pasa a la funcion la cadena hola debe retornar 4 ', () =>{
-    expect(length('hola')).toBe(8);
+    expect(length('hola')).toBe(4);
 })
 test('si se le pasa a la funcion la cadena javascript debe retornar 10', () =>{
     expect(length('javascript')).toBe(10);
